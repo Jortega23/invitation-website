@@ -33,8 +33,23 @@ strong{
     text-align: center;  
 }
 
+
 .picTitle h1{
     font-size: 70px;
+}
+
+.topTitle{
+    position: relative;
+    animation-name: top-title;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+}
+
+.bottomTitle{
+    position: relative;
+    animation-name: bottom-title;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
 }
 
 .pic{
@@ -57,6 +72,14 @@ strong{
     font-size: 40px;
 }
 
+.partyInfo h2{
+    font-size: 30px;
+}
+
+.partyInfo h3{
+    font-size: 22px;
+}
+
 .rsvp{
     font-family:'Yanone Kaffeesatz';
     text-align: center;
@@ -66,7 +89,25 @@ strong{
     font-size: 40px;
 }
 
+.rsvp h2{
+    font-size: 30px;
+}
+
+.rsvp h3{
+    font-size: 22px;
+}
+
 .footer{
     font-family:'Yanone Kaffeesatz';
     text-align: center; 
+}
+
+
+@media screen and (max-width: 200px){
+    body {
+        background-size: contain;
+    }
+    .head h2{
+        font-size: 12.5px;
+    }
 }
